@@ -19,6 +19,7 @@
 		B799DB0D1F5C43F600C64F22 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B799DB0B1F5C43F600C64F22 /* Pokemon Hollow.ttf */; };
 		B799DB0E1F5C43F600C64F22 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B799DB0C1F5C43F600C64F22 /* Pokemon Solid.ttf */; };
 		B799DB141F5C46F700C64F22 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B799DB131F5C46F700C64F22 /* music.mp3 */; };
+		B799DB161F5C51FB00C64F22 /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B799DB151F5C51FB00C64F22 /* PokemonDetailViewController.swift */; };
 		B7EF35CF1F5C242100D6F186 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EF35CE1F5C242100D6F186 /* PokeCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		B799DB0B1F5C43F600C64F22 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
 		B799DB0C1F5C43F600C64F22 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 		B799DB131F5C46F700C64F22 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		B799DB151F5C51FB00C64F22 /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokemonDetailViewController.swift; path = Controller/PokemonDetailViewController.swift; sourceTree = "<group>"; };
 		B7EF35CE1F5C242100D6F186 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokeCell.swift; path = View/PokeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				B7811FE61F53167400A461E4 /* ViewController.swift */,
+				B799DB151F5C51FB00C64F22 /* PokemonDetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				B7811FE51F53167400A461E4 /* AppDelegate.swift in Sources */,
 				B781200B1F531C3C00A461E4 /* Pokemon.swift in Sources */,
 				B799DB0A1F5C2A1000C64F22 /* csv.swift in Sources */,
+				B799DB161F5C51FB00C64F22 /* PokemonDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

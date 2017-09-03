@@ -54,7 +54,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Test app: Binh Nguyen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ys7-lF-8Fj">
-                                        <rect key="frame" x="8" y="8" width="110" height="13"/>
+                                        <rect key="frame" x="8" y="26" width="110" height="13"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -156,11 +156,45 @@
                     <connections>
                         <outlet property="collection" destination="RGw-he-gDT" id="Xgr-ms-8m1"/>
                         <outlet property="searchBar" destination="7g7-tu-riN" id="FQF-Ih-M8M"/>
+                        <segue destination="ziZ-IF-lj3" kind="show" identifier="PokemonDetailViewController" id="y3r-4h-gbC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="165.59999999999999" y="151.57421289355324"/>
+            <point key="canvasLocation" x="-71" y="233"/>
+        </scene>
+        <!--Pokemon Detail View Controller-->
+        <scene sceneID="3yZ-fn-hy1">
+            <objects>
+                <viewController id="ziZ-IF-lj3" customClass="PokemonDetailViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kVR-PH-Qoz"/>
+                        <viewControllerLayoutGuide type="bottom" id="bHZ-oU-qLc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yo2-zn-XKC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9o-Mq-sU4">
+                                <rect key="frame" x="166.5" y="323.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32045130255153631" green="0.46004627224863381" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="q9o-Mq-sU4" firstAttribute="centerY" secondItem="yo2-zn-XKC" secondAttribute="centerY" id="75m-31-VoV"/>
+                            <constraint firstItem="q9o-Mq-sU4" firstAttribute="centerX" secondItem="yo2-zn-XKC" secondAttribute="centerX" id="eU2-yq-K9F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nameLbl" destination="q9o-Mq-sU4" id="cRd-nz-U7j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xU0-0F-bpz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709.60000000000002" y="232.53373313343329"/>
         </scene>
     </scenes>
     <resources>
